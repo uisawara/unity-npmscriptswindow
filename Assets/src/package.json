@@ -1,6 +1,6 @@
 {
-	"name": "works.mmzk.unity.npmscriptsrunner",
-	"displayName": "npm scripts runner",
+	"name": "works.mmzk.unity.npmscriptswindow",
+	"displayName": "npm scripts window",
 	"version": "0.0.1",
 	"description": "npm scripts runner for Unity EditorWindow",
 	"dependencies": {
