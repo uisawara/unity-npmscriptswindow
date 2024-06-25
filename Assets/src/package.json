@@ -1,0 +1,9 @@
+{
+	"name": "works.mmzk.unity.npmscriptsrunner",
+	"displayName": "npm scripts runner",
+	"version": "0.0.1",
+	"description": "npm scripts runner for Unity EditorWindow",
+	"dependencies": {
+		"jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm"
+	}
+}
