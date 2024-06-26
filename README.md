@@ -2,6 +2,10 @@
 
 npm scripts runner for Unity Editor Window
 
+# Prepare
+
+- Enable npm
+
 # installation
 
 ## upm
@@ -9,6 +13,8 @@ npm scripts runner for Unity Editor Window
 - Add package from git URL
   - https://github.com/uisawara/unity-npmscriptswindow.git?path=Assets/src
 
-# uses
+# How to use
 
-- Open editor window from Unity menu / Window / npm scripts window
+- Place package.json in the root directory of the project
+- Open an editor window from Unity menu/window/npm script window
+- Click the Load scripts button to execute the script
