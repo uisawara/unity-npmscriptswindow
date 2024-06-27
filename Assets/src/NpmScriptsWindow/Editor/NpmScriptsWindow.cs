@@ -127,12 +127,12 @@ public sealed class NpmScriptsWindow : EditorWindow
         var os = SystemInfo.operatingSystemFamily.ToString();
         if (os == "Windows")
         {
-            return $"/C {command}";
+            return $"/K {command} & pause & exit";
         }
 
         if (os == "MacOSX")
         {
-            return $"-c \"{command}\"";
+            return $"-c \"{command}; read -p 'Press [Enter] key to continue...'\"";
         }
 
         return string.Empty;
