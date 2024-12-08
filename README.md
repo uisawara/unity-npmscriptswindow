@@ -11,7 +11,10 @@ npm scripts runner for Unity Editor Window
 ## upm
 
 - Add package from git URL
-  - https://github.com/uisawara/unity-npmscriptswindow.git?path=Assets/src
+
+```
+https://github.com/uisawara/unity-npmscriptswindow.git?path=Assets/src
+```
 
 # How to use
 
